@@ -9,22 +9,22 @@
 </head>
 
 <body>
-    <header role="banner">
-      
-        <div class="col-4">
-          <a href="index.html">
-            <img class="logo" src="https://gist.githubusercontent.com/michlimones/7c401067f9bf5bf03ed381863787155b/raw/8114bf259a96b94396f278be712e836cb286998d/Stranger-things-logo.jpg" alt="Stanger Things icon"/>
-          </a>
-        </div>
-    </header>
-    <main role="main">
+  <header role="banner" class="header">
+    <section>
+      <img src="images/Stranger-things-logo.jpg" alt="Stranger-things-logo" class="logo">
+    </section>
+  </header>
+  <main role="main">
+    <fieldset>
       <section class="quizStart">
-        <h1>Are you ready to prove you are a Stranger Things fan?</h1>
-        <button type="button" class="startButton">Start quiz!</button>
+        <legend>Stranger Things Quiz</legend>
+        <p>Are you ready to prove you are a Stranger Things fan?</p>
+          <button type="button" id="start">Start quiz!</button>
       </section>
-      <section class="questionAnswers">
-          <form></form>
-      </section>
+    </fieldset>
   </main>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="store.js"></script>
+  <script src="index.js"></script>
 </body>
 </html>
