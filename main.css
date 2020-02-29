@@ -2,43 +2,76 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    text-align: center;
 }
+
+header {
+    text-align: center;
+    margin-top: 10%;
+    margin-bottom: 25px;
+}
+
+
 body {
     font-family: 'Metrophobic', sans-serif;
     background-color: black;
     color: red;
+    background: url(Images/background.jpg) fixed;
+
 }
 
-.logo {
-    height: 300px;
-    width: 400px;
+fieldset {
+    margin-left: 100px;
+    margin-right: 100px;
+    border-radius: 5px;
+    border-color: rgba(112, 21, 21, 0.89);
+    background: black;
+    font-size: 20px;
+    padding: 15px;
 }
 
 button {
     padding: 20px;
-    border: none;
+    border-color: white;
+    border-radius: 5px;
     background-color: red;
-    color: #ffffff;
     font-size: 18px;
-    margin-top: 40px
+    margin-top: 20px;
+    float: right;
 }
 
 legend {
-    margin-left: auto;
-    margin-right: auto;
     margin-bottom: 10px;
 }
 
-.options ul {
-    list-style: none;
-    margin:0;
-    text-align:left;
-  }
+.js-options {
+    /* text-align: left; */
+    margin-left: 20px;;
+}
+
+.options span {
+    display:block;
+    border-radius:5px;
+}
+
+.right-answer {
+    background:ivory;
+    padding: 10px 20px;
+    margin: 5px 20px;
+    border:2px solid greenyellow;
+}
+   
+.wrong-answer {
+     background:ivory;
+     padding: 10px;
+     margin: 5px 20px;
+     border:2px solid #fe0000;
+ }
+
 
 @media only screen and (min-width: 320px) {
   .logo{
     width: 45%;
+    height: 64%;
   }
 
   .box {
@@ -68,9 +101,13 @@ legend {
 
 }
 
-@media only screen and (min-width: 550px) {
+@media only screen and (min-width: 450px) {
+    .logo {
+        width: 45%;
+        height: 45%;
+    }
 
-  .box {
+    .box {
     width: 85%;
     height: 98%;
   }
@@ -90,10 +127,10 @@ legend {
 }
 
 @media only screen and (min-width: 800px) {  
-  .header li {
-    margin: 1em;
-    font-size: 1.3em;
-  }
+    .logo {
+        height: 140px;
+        width: 350px;
+    }
 
 
   .box {
