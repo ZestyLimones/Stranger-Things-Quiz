@@ -10,6 +10,12 @@ header {
     margin-bottom: 25px;
 }
 
+.question-and-score {
+    margin-top: 10px;
+    font-family: "Arial Black", Gadget, sans-serif;
+    color: #BF2121;
+}
+
 
 body {
     font-family: 'Metrophobic', sans-serif;
@@ -22,10 +28,9 @@ body {
 fieldset {
     margin-left: 100px;
     margin-right: 100px;
-    border-radius: 5px;
+    border-radius: 10px;
     border-color: rgba(112, 21, 21, 0.89);
     background: black;
-    font-size: 20px;
     padding: 15px;
 }
 
@@ -44,7 +49,6 @@ legend {
 }
 
 .js-options {
-    /* text-align: left; */
     margin-left: 20px;;
 }
 
@@ -69,85 +73,77 @@ legend {
 
 
 @media only screen and (min-width: 320px) {
-  .logo{
-    width: 45%;
-    height: 64%;
-  }
+    .logo{
+        width: 45%;
+        height: 64%;
+    }
 
-  .box {
-    width: 90%;
-    height: 90%;
-  }
+    .box {
+        width: 90%;
+        height: 90%;
+    }
 
-  .images {
-    width: 85%;
-  }
+    fieldset {
+        font-size: 40px;
+    }
 
-  .button {
-    margin-top: 0.5em;
-    font-size: 1em;
-    width: 8em;
-    height: 2.5em;
-  }
+    .button {
+        margin-top: 0.5em;
+        font-size: 2em;
+        width: 8em;
+        height: 2.5em;
+    }
 
-  h1,
-  legend {
-    font-size: 1em;
-  }
-
-  .header li {
-    font-size: 1em;
-  }
+    .header{
+        font-size: 1em;
+    }
 
 }
 
-@media only screen and (min-width: 450px) {
+@media only screen and (min-width: 550px) {
     .logo {
         width: 45%;
         height: 45%;
     }
 
     .box {
-    width: 85%;
-    height: 98%;
-  }
+        width: 85%;
+        height: 98%;
+    }
 
-  .button {
-    margin-top: 1em;
-    font-size: 1em;
-    width: 10em;
-    height: 2.5em;
-  }
+    fieldset {
+        font-size: 30px;
+    }
 
-  h1,
-  legend {
-    font-size: 1em;
-  }
+    .button {
+        margin-top: 1em;
+        font-size: 3em;
+        width: 10em;
+        height: 2.5em;
+    }
 
 }
 
-@media only screen and (min-width: 800px) {  
+@media only screen and (min-width: 1000px) {  
     .logo {
         height: 140px;
         width: 350px;
     }
 
+    .box {
+        width: 85%;
+        height: 95%;
+    }
 
-  .box {
-    width: 85%;
-    height: 95%;
-  }
+    .button {
+        margin-top: 1em;
+        margin-bottom: 1em;
+        width: 12em;
+        font-size: 3em;
+    }
 
-  h1,
-  legend {
-    font-size: 1.3em;
-  }
+    fieldset {
+        font-size: 20px;
+    }
 
-
-  .button {
-    margin-top: 1em;
-    margin-bottom: 1em;
-    width: 12em;
-    font-size: 1.2em;
-  }
 }

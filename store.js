@@ -56,7 +56,7 @@ const STORE = {
                 "Scoops and more Scoops!", 
                 "Scoops Ahoy!",
                 "Taco Bell",
-                "Hawkin’s Post"
+                'Hawki\'n Post'
             ],
             answer: 'Scoops Ahoy!'
         },
@@ -68,10 +68,10 @@ const STORE = {
                 'The Demogorgon',
                 'Lord Voldemort'
             ],
-            answer: 'THe Demogorgon'
+            answer: 'The Demogorgon'
         },
         {
-            question: "What is the name of the game the four boys would play in Mike’s basement?",
+            question: 'What is the name of the game the four boys would play in Mike\'s basement?',
             options: [
                 'Dungeons and Dragons',
                 'Mario Party',
