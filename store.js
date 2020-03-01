@@ -56,7 +56,7 @@ const STORE = {
                 "Scoops and more Scoops!", 
                 "Scoops Ahoy!",
                 "Taco Bell",
-                'Hawki\'n Post'
+                'Hawkin\'s Post'
             ],
             answer: 'Scoops Ahoy!'
         },
